@@ -1,0 +1,1 @@
+#This will be a simple program which accepts an argument of financial amount and displays relevant, budgeting information.
