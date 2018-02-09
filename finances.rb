@@ -2,10 +2,11 @@
 #A pay period of 16-15, for simplicity's sake.
 
 #base income
+#for example: 
 
 #iterate over expenses and output remaining amount
 def finances
-	expenses = {discover: 100, sprint: 109.85, twcable: 64.99, LES: 0, spotify: 10.71, bhe: 0, petco: 54.53, rent: 445, skillsfund: 305.36, huel: 66.00, NC: 10}
+	expenses = {discover: 100, sprint: 109.85, twcable: 32.45, LES: 0, spotify: 10.71, bhe: 0, petco: 54.53, rent: 445, skillsfund: 305.36, huel: 66.00, NC: 10}
 	total_remaining = nil
 	puts "Input monthly total:"
 	input = gets.chomp
